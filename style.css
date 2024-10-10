@@ -18,3 +18,92 @@ th, td {
     vertical-align: middle; /* Align text vertically in the middle */
     line-height: 1.5; 
 }
+
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #18476f;
+  }
+  
+  #contact form div {
+    margin-bottom: 15px;
+  }
+  
+  #contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  #contact input[type="text"]:focus,
+  #contact input[type="email"]:focus,
+  #contact textarea:focus {
+    border-color: #18476f;
+  }
+  
+  #contact textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  #contact input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #18476f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  #contact input[type="text"]:focus,
+  #contact input[type="email"]:focus,
+  #contact textarea:focus {
+    border-color: #18476f;
+  }
+  
+  #contact textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  #contact input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #18476f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #1b4377;
+  }
