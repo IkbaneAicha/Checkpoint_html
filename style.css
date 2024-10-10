@@ -2,22 +2,155 @@ body {
     background-color: rgb(227, 250, 215);
 }
 
+/*Navbar style */
+nav {
+  background-color: #18476f;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display items in a row */
+  justify-content: space-around; /* Spread items evenly across the navbar */
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #1b4377; 
+}
 
 
-/* Style for the entire table */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #1b4377; 
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.8rem; 
+  color: #18476f; 
+  background-color: #f9f9f9; 
+  padding: 15px 20px; /* Padding around the text */
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: fit-content; /* adjust width to fit the content */
+  margin: 20px auto; /* Center the element with margins */
+  border: 2px solid #18476f; /* Border matching the theme */
+  letter-spacing: 1px; 
+  font-weight: 600; 
+}
+
+/* About and Work Sections Styling */
+#about, #work {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for section headings (h2) */
+#about h2, #work h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #18476f;
+}
+
+/* Styling for paragraphs */
+#about p, #work p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Video styling for the Work section */
+#work video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style for resume section */
+#resume {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resume h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #18476f;
+}
+
 table {
-    border: 1px solid black; 
-    border-collapse: collapse; 
+  width: 100%;
+  border: 1px solid black; 
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
-/* Style for table headers and data cells */
 th, td {
-    border: 1px solid black; 
-    padding: 15px; /* Space inside each cell */
-    text-align: left; /* Align text to the left */
-    vertical-align: middle; /* Align text vertically in the middle */
-    line-height: 1.5; 
+  border: 1px solid black;
+  padding: 15px; 
+  text-align: left; 
+  vertical-align: middle; 
+  line-height: 1.5;
+  color: #333;
 }
+
+th {
+  background-color: #18476f; /* Matches the color of contact section headers */
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #f9f9f9; 
+}
+
+tr:hover td {
+  background-color: #f0f0f0;
+}
+
+/* Style for contact section */
+
 
 #contact {
     max-width: 600px;
